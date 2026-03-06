@@ -1,9 +1,9 @@
 #ifndef __IDALDR_H__
 #define __IDALDR_H__
 
-#include "ida.hpp"
-#include "fpro.h"
-#include "idp.hpp"
+#include <ida.hpp>
+#include <fpro.h>
+#include <idp.hpp>
 #include <loader.hpp>
 #include <name.hpp>
 #include <bytes.hpp>
