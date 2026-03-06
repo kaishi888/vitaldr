@@ -2,6 +2,7 @@
 #include "vitaldr.h"
 #include "nids_resolver.h"
 #include "miniz.h"
+#include "idaldr.h"
 
 #undef _CONSOLE
 
@@ -103,6 +104,8 @@ void set_processor_type(const char*, int) {
 }
 
 #else
+#include <idaldr.h>
+#include <segment.hpp>
 #pragma comment(lib, "ida")
 #endif
 
