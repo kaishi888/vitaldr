@@ -78,7 +78,7 @@
     <LinkIncremental>true</LinkIncremental>
     <ExecutablePath>$(ExecutablePath)</ExecutablePath>
     <LibraryPath>idasdk\lib\x64_win_vc_32;$(LibraryPath)</LibraryPath>
-    <IncludePath>idasdk\ldr;idasdk76\include;$(IncludePath)</IncludePath>
+    <IncludePath>idasdk\ldr;idasdk\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
