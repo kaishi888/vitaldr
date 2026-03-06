@@ -2,6 +2,7 @@
 #include "vitaldr.h"
 #include "nids_resolver.h"
 #include "miniz.h"
+#include "idaldr.h"
 
 #undef _CONSOLE
 
