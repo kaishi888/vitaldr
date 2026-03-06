@@ -29,13 +29,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-
+    
+    - name: Set output
+      run: echo "Add MSBuild to PATH" >> $GITHUB_OUTPUT
+      
     - name: Add MSBuild to PATH
       uses: microsoft/setup-msbuild@v1.0.2
-
-    - name: Set output
-      run: echo "Build" >> $GITHUB_OUTPUT
-
 
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
