@@ -47,5 +47,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: vitaldr
-        path: x32
+        path: x64
         if-no-files-found: error
